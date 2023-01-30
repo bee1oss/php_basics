@@ -1,9 +1,5 @@
 <?php
-$arr[] = [[1,3,4],
-            [3,1,3],
-            [1,3,1]];
-for($i=0;$i<=3;$i++){
-    for($j=0;$j<=3;$j++){
-    echo $arr[[$i][$j]];
-    }
-}
+$users = ['john', 'dave', 'tim'];
+
+for($i = 0;$i < count($users);$i++)
+    echo $users[$i]."\n";

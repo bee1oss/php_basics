@@ -16,4 +16,4 @@ print_r($arr);
 var_dump($null);
 */
 
-require_once "";
+require_once "for.php";
